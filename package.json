@@ -1,0 +1,45 @@
+{
+  "name": "bgzf",
+  "version": "0.0.0",
+  "description": "inflate BGZF format(sync)",
+  "main": "index.js",
+  "homepage": "http://github.com/shinout/bgzf",
+  "author": "Shin Suzuki<shinout310@gmail.com>",
+  "gypfile": true,
+  "keywords": [
+    "bgzf",
+    "bam",
+    "sam",
+    "bioinformatics",
+    "gzip",
+    "inflate",
+    "deflate",
+    "synchronous"
+  ],
+
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "nan": "*"
+  },
+  "devDependencies": {
+    "coffee-script": ">= 1.7.1",
+    "grunt": "^0.4.4",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-shell": "^0.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/shinout/bgzf"
+  },
+  "bugs": {
+    "url": "http://github.com/shinout/bgzf/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/shinout/bgzf/blob/master/MIT-LICENSE"
+    }
+  ]
+}
